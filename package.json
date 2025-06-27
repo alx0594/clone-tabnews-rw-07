@@ -1,0 +1,25 @@
+{
+  "name": "clone-tabnews-rw-07",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "concurrently -n next,jest --hide next -k -s command-jest \"next dev\" \"jest --runInBand\"",
+    "test:watch": "jest --watchAll --runInBand --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-retry": "^1.3.3",
+    "jest": "^30.0.3",
+    "next": "^15.3.4",
+    "next-connect": "^1.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
